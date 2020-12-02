@@ -6,7 +6,7 @@ import Col from "../components/Col";
 
 function About () {
     return (
-    <div id="page-content">
+    <div className="bg-dark text-light"id="page-content">
        <Container className="bio"> 
             <Row>
                 <Col size="md-4">
@@ -14,8 +14,8 @@ function About () {
                         <img id="bio-pic" className="img-fluid" src="./assets/images/CM-bio-pic.jpg" alt="Carlos bio pic" />
                     </figure>
                 </Col>
-            </Row>
-            {/* <Row> */}
+            
+         
                 <Col size="md-8" className= "about">
                     <h1>A little bit about me...</h1>
                     <br />
@@ -24,7 +24,7 @@ function About () {
                     <p>I've been the production electrician for Tony Award-winning lighting designs, so I know what it's like working in collaboration with others to bring a vision to life, which is why I am interested in web design. I like to put things together and make them work with the anticipation of a beautiful outcome.  </p>
                     <p>Fun Facts: I love jazz, I'm teaching myself how to play guitar, I've been happily married for 13 years and counting, and I'm an avid New York Mets fan which gives me the opportunity to teach my two daughters (ages 10 and 7) lessons in humility. </p>
                 </Col>
-            {/* </Row> */}
+             </Row>
         </Container> 
     </div> 
 
