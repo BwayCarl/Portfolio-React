@@ -10,7 +10,8 @@
 }
 
 #page-content {
-    margin-top: 2rem;
+ 
     flex: 1 0 auto;
-    padding-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
 }

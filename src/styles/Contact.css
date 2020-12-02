@@ -1,0 +1,28 @@
+h1.contact {
+    padding: 1.5em;
+} 
+
+.icon {
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.icon-links a:link {
+    color: #e6dede; 
+   
+}
+
+.icon-links a:visited {
+    color: #e6dede;
+}
+
+.icon-links a:hover {
+    color: #46acffce;
+    transition: 0.35s;
+    transform: scale(3);
+}
+
+#contact-form {
+    align-items: center;
+    /* padding-left: 3rem; */
+}
