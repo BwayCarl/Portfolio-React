@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.9d51a8fb.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.579ff9eb.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.579ff9eb.chunk.js.map",
-    "runtime-main.js": "/Portfolio-React/static/js/runtime-main.7f833bbe.js",
-    "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.7f833bbe.js.map",
-    "static/css/2.1a02f21c.chunk.css": "/Portfolio-React/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.801d7418.chunk.js": "/Portfolio-React/static/js/2.801d7418.chunk.js",
-    "static/js/2.801d7418.chunk.js.map": "/Portfolio-React/static/js/2.801d7418.chunk.js.map",
-    "static/js/3.696f2b84.chunk.js": "/Portfolio-React/static/js/3.696f2b84.chunk.js",
-    "static/js/3.696f2b84.chunk.js.map": "/Portfolio-React/static/js/3.696f2b84.chunk.js.map",
-    "index.html": "/Portfolio-React/index.html",
-    "static/css/2.1a02f21c.chunk.css.map": "/Portfolio-React/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.9d51a8fb.chunk.css.map": "/Portfolio-React/static/css/main.9d51a8fb.chunk.css.map",
-    "static/js/2.801d7418.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.801d7418.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Portfolio-React/static/media/new-york-4340541_1920.39ce9b38.jpg"
+    "main.css": "/static/css/main.95af4c83.chunk.css",
+    "main.js": "/static/js/main.717ad3b2.chunk.js",
+    "main.js.map": "/static/js/main.717ad3b2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f3f1e3c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f3f1e3c.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.801d7418.chunk.js": "/static/js/2.801d7418.chunk.js",
+    "static/js/2.801d7418.chunk.js.map": "/static/js/2.801d7418.chunk.js.map",
+    "static/js/3.696f2b84.chunk.js": "/static/js/3.696f2b84.chunk.js",
+    "static/js/3.696f2b84.chunk.js.map": "/static/js/3.696f2b84.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.95af4c83.chunk.css.map": "/static/css/main.95af4c83.chunk.css.map",
+    "static/js/2.801d7418.chunk.js.LICENSE.txt": "/static/js/2.801d7418.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/new-york-4340541_1920.39ce9b38.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f833bbe.js",
+    "static/js/runtime-main.9f3f1e3c.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.801d7418.chunk.js",
-    "static/css/main.9d51a8fb.chunk.css",
-    "static/js/main.579ff9eb.chunk.js"
+    "static/css/main.95af4c83.chunk.css",
+    "static/js/main.717ad3b2.chunk.js"
   ]
 }
