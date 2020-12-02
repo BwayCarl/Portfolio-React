@@ -2,7 +2,9 @@
   font-family: 'Roboto', sans-serif;
   background-color: 0, 0, 0, 1;
 }
-
+body {
+  background-color: #232c23;
+}
 /* .page {
 
   position: absolute;
@@ -31,3 +33,13 @@
   opacity: 0;
   transition: opacity 150ms linear; 
 }*/
+
+.jumbotron {
+  background-image: url(./images/new-york-4340541_1920.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height:100%;
+  background-size: cover;
+  background-position: center;
+
+}
