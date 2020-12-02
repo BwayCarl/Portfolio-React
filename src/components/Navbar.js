@@ -1,53 +1,53 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../styles/Navbar.css';
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <Link className="navbar-brand" to="/">Carlos Martinez</Link>
+            <NavLink className="navbar-brand" to="/">Carlos Martinez</NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse float-right" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             to="/"
                             className={
                                 window.location.pathname === "/" || window.location.pathname === "/"
                                     ? "nav-link active"
                                     : "nav-link"
-                            }>Home</Link>
+                            }>Home</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             to="/portfolio"
                             className={
                                 window.location.pathname === "/portfolio" || window.location.pathname === "/portfolio"
                                     ? "nav-link active"
                                     : "nav-link"
                             }
-                        >Portfolio</Link>
+                        >Portfolio</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             to="/about"
                             className={
-                                window.location.pathname === "/" || window.location.pathname === "/about"
+                                window.location.pathname === "/about" || window.location.pathname === "/about"
                                     ? "nav-link active"
                                     : "nav-link"
                             }
                         >
                             About
-            </Link>
+            </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             to="/contact"
                             className={
                                 window.location.pathname === "/contact" || window.location.pathname === "/contact"
@@ -56,11 +56,11 @@ function Navbar() {
                             }
                         >
                             Contact
-            </Link>
+            </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             to="/resume"
                             className={
                                 window.location.pathname === "/resume" || window.location.pathname === "/resume"
@@ -69,7 +69,7 @@ function Navbar() {
                             }
                         >
                             Resume
-            </Link>
+            </NavLink>
                     </li>
                 </ul>
             </div>
