@@ -105,7 +105,7 @@ function Contact() {
                 <Row size="md-12" className="my-auto d-flex">
                     <Col size="md-1"></Col>
                         <Col size="md-10" className="icon-links">
-                            <ul className="list-inline mx-auto">
+                            <ul className="d-flex auto-mx justify-content-center">
                                 <li className="list-inline-item icon"><a href="mailto:bwaycarl@gmail.com" rel="noreferrer" target="_blank"><i class="fas fa-envelope fa-3x"></i></a></li>
                                 <li className="list-inline-item icon"><a href="tel:9178488949" rel="noreferrer" target="_blank"><i class="fas fa-mobile fa-3x"></i></a></li>
                                 <li className="list-inline-item icon"><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
