@@ -11,7 +11,7 @@ function About () {
             <Row>
                 <Col size="md-4">
                     <figure>
-                        <img id="bio-pic" className="img-fluid" src="public/assets/images/CM-bio-pic.jpg" alt="Carlos bio pic" />
+                        <img id="bio-pic" className="img-fluid" src="./assets/images/CM-bio-pic.jpg" alt="Carlos bio pic" />
                     </figure>
                 </Col>
             
