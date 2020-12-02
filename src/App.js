@@ -24,7 +24,8 @@ class App extends Component {
   render() {
 
     return (
-      <div className="container">
+      <div className="App">
+        <div id="jumbotron"></div>
         <Wrapper>
           <Router>
             <Navbar />
