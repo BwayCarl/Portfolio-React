@@ -17,12 +17,25 @@ h1.contact {
 }
 
 .icon-links a:hover {
-    color: #46acffce;
+    color: #d0e1f0ce;
     transition: 0.35s;
     transform: scale(3);
 }
 
 #contact-form {
     align-items: center;
-    /* padding-left: 3rem; */
+}
+
+@media screen and (max-width:768px) {
+    .fa-3x {
+        font-size: 225%;
+    }
+ 
+     .icon {
+         padding: .6rem;
+     }
+ 
+     form {
+         margin: 1em;
+     }
 }
