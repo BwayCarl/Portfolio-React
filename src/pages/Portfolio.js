@@ -78,6 +78,7 @@ function Portfolio() {
                                     <div class="card-body text-white bg-dark border-dark">
                                     <h5 class="card-title border-dark">Note Taker</h5>
                                     <p class="card-text">An application that can be used to write, save, and delete notes using an express backend, saving and retrieving note data from a JSON file.</p>
+                                    <br/>
                                     <a href="https://afternoon-dawn-02847.herokuapp.com/" rel="noreferrer" target="_blank" class="btn btn-secondary">Visit the live page</a>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="https://github.com/BwayCarl/Note-Taker" rel="noreferrer" target="_blank" class="btn btn-secondary"><i class="fab fa-github btn-icon"></i> Github Repository</a>
