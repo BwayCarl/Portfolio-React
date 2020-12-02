@@ -26,7 +26,7 @@ function Portfolio() {
 
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
-                            <img src="./assets/images/EMFLC.png" className="card-img-top" alt="workday-scheduler" />
+                            <img src="./assets/images/EMFLC.png" className="card-img-top" alt="emflc-page" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">More Football Less COVID</h5>
                                 <p className="card-text">This team project leverages numerous technologies, throughout the full stack, to generate a user experience that together data from multiple sources to provide tailored safety measures per NFL team in an attempt to mitigate COVID risk and hopefully allow for people to safely attend NFL games all season.</p>
