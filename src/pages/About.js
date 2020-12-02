@@ -6,7 +6,7 @@ import Col from "../components/Col";
 
 function About () {
     return (
-    <div className="bg-dark text-light"id="page-content">
+    <div className="bg-dark text-light page"id="page-content">
        <Container className="bio"> 
             <Row>
                 <Col size="md-4">
