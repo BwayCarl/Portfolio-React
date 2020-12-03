@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/Navbar"
 import Wrapper from "./components/Wrapper";
@@ -27,7 +27,7 @@ class App extends Component {
       <div className="App">
         <div id="jumbotron"></div>
         <Wrapper>
-          <Router>
+          <Router basename="Portfolio-React">
             <Navbar />
             {/* <Route render={({location}) => (
               <TransitionGroup>
@@ -37,7 +37,7 @@ class App extends Component {
                   classNames="fade">
                   <Switch location={location}> */}
                     <Route exact path="/" component={Home} />
-                    <Route path="/about" component={About} />
+                    <Route exact path="/about" component={About} />
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/resume" component={Resume} />
                     <Route exact path="/portfolio" component={Portfolio} />
