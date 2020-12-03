@@ -10,7 +10,7 @@
 
 ### Week 20 Update:
 
-Rerender using React into a single page application.
+Rerender into a single page application using React.
 ### Week 8 Updates included:
 - Pinned repositories to [Github Profile](https://github.com/BwayCarl).
 - Updated [LinkedIn Profile](https://www.linkedin.com/in/carlos-martinez-8702b146/).
