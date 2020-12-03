@@ -6,15 +6,15 @@ import Col from "../components/Col";
 
 function Resume() {
     return (
-        <div className="bg-dark text-light">
+        <div className="bg-dark text-light resume">
             <Container>
                 <Row>
-                    <Col size="sm-1"></Col>
-                    <Col size="sm-3" id="logo">
-                        <h1 className="resume-name text-center">Carlos Martinez</h1>
-                        <div><img id="profile-pic" src="./assets/images/CM-ProfilePic.jpg" alt="Carlos profile pic" /></div>
+                    {/* <Col size="sm-1"></Col> */}
+                    <Col size="sm-4" id="logo">
+                        <h1 className="resume-name">Carlos Martinez</h1>
+                        <div><img id="profile-pic" className="profile-pic" src={process.env.PUBLIC_URL + "/assets/images/CM-ProfilePic.jpg"} alt="Carlos profile pic" /></div>
                         <br />
-                        <h5 className="text-center">Front End Developer</h5>
+                        <h5 className="text-center">Full Stack Developer</h5>
                         <br />
                         <div class="resume-links">
                             <div><i className="fas resume-icon fa-map-marker-alt"></i> 111 Sherman Place</div>
@@ -39,18 +39,18 @@ function Resume() {
 
                             <div><i className="fab js-logo resume-icon fa-js-square"></i> JavaScript</div>
                             <div><i className="fab n-js-logo resume-icon fa-node"></i> Node.js</div>
-                            <div><img src="./assets/images/logo-mysql-20.png" alt="mysql-logo" /> MySQL</div>
-                            <div><img src="./assets/images/logo-mongoDB.png" alt="mongoDB-logo" /> mongoDB</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/logo-mysql-26341.png"} alt="mysql-logo" className="mysql-logo"/> MySQL</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/mongodb-logo.png"} alt="mongoDB-logo" className="mongoDB-logo"/> mongoDB</div>
                             <div><i className="fab react-logo resume-icon fa-react"></i> React</div>
                             <br /><br /><br />
                             {/* PDF Button */}
 
-                            <div><a href="./assets/Carlos-Martinez-Resume3.pdf" rel="noreferrer" target="_blank" type="button" className="btn btn-primary"><i className="fas fa-file-pdf"></i> Download PDF Version</a></div>
+                            <div><a href={process.env.PUBLIC_URL + "/assets/Carlos-Martinez-Resume-4.pdf"} rel="noreferrer" target="_blank" type="button" className="btn btn-primary"><i className="fas fa-file-pdf"></i> Download PDF Version</a></div>
                         </div>
                     </Col>
 
-                    <Col size="sm-7">
-                        <div id="summary">
+                    <Col size="sm-8">
+                        <div id="summary" className="summary">
                             {/* Summary */}
                         <h3>Summary</h3>
                                 <ol className="list-unstyled">
@@ -61,8 +61,8 @@ function Resume() {
                         
                             <hr/>
                             {/* EXPERIENCE */}
-                            <h3>Experience</h3>
-                            <br/>
+                            <h3 className="subheaders">Experience</h3>
+                            
                             <div className='position'>
                                 <h4>The Shubert Organization <small className='citystate'>New York, NY</small></h4>
                                 <strong>House Electrician, Booth Theatre <span className='dates pull-right'> - September, 2018 - PRESENT</span></strong>
@@ -88,8 +88,8 @@ function Resume() {
                             </div>
                             <hr/>
                             {/* EDUCATION */}
-                            <h3>Education</h3>
-                            <br/>
+                            <h3 className="subheaders">Education</h3>
+                            
                             <div className='position'>
                                 <h4>Rutgers University <small className='citystate'>New Brunswick, NJ</small></h4>
                                 <strong>Web Coding Bootcamp - Full Stack Flex <span className='dates pull-right'>- June, 2020 - December, 2020</span></strong>

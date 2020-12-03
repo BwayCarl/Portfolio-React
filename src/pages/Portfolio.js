@@ -12,7 +12,7 @@ function Portfolio() {
                 <Row>
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
-                            <img src="./assets/images/Food-Drink-App.jpg" className="card-img-top" alt="food-drink-app" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/Food-Drink-App.jpg"} className="card-img-top" alt="food-drink-app" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">What Are We Making Tonight?</h5>
                                 <p className="card-text">This team project is an application that randomly provides recipes for four different meals or four different cocktails after choosing a main ingredient.</p>
@@ -26,7 +26,7 @@ function Portfolio() {
 
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
-                            <img src="./assets/images/EMFLC.png" className="card-img-top" alt="emflc-page" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/EMFLC.png"} className="card-img-top" alt="emflc-page" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">More Football Less COVID</h5>
                                 <p className="card-text">This team project leverages numerous technologies, throughout the full stack, to generate a user experience that together data from multiple sources to provide tailored safety measures per NFL team in an attempt to mitigate COVID risk and hopefully allow for people to safely attend NFL games all season.</p>
@@ -43,7 +43,7 @@ function Portfolio() {
                 <Row>
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
-                            <img src="./assets/images/Eat-Da-Burger.png" className="card-img-top" alt="eat-da-burger-app" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/Eat-Da-Burger.png"} className="card-img-top" alt="eat-da-burger-app" />
                             <div className="card-body text-white bg-dark border-dark">
                                 <h5 className="card-title border-dark">Eat-Da-Burger</h5>
                                 <p className="card-text">A burger logger app using MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design.</p>
@@ -57,7 +57,7 @@ function Portfolio() {
                             
                         <Col size="md-6">
                             <div className="card bg-dark border-dark">
-                            <img src="./assets/images/Workday-Scheduler.jpg" className="card-img-top" alt="workday-scheduler"/>
+                            <img src={process.env.PUBLIC_URL + "/assets/images/Workday-Scheduler.jpg"} className="card-img-top" alt="workday-scheduler"/>
                                 <div className="card-body text-white bg-dark">
                                     <h5 className="card-title">Workday Scheduler</h5>
                                     <p className="card-text">A calendar application that allows the user to save events for each hour of the work day and stores the information in local storage. This app runs in the browser.</p>
@@ -74,7 +74,7 @@ function Portfolio() {
                 <Row>
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
-                        <img src="./assets/images/note-taker-app.png" class="card-img-top" alt="note-taker-app" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/note-taker-app.png"} class="card-img-top" alt="note-taker-app" />
                                     <div class="card-body text-white bg-dark border-dark">
                                     <h5 class="card-title border-dark">Note Taker</h5>
                                     <p class="card-text">An application that can be used to write, save, and delete notes using an express backend, saving and retrieving note data from a JSON file.</p>
@@ -88,7 +88,7 @@ function Portfolio() {
                             
                         <Col size="md-6">
                             <div className="card bg-dark border-dark">
-                            <img src="./assets/images/Weather-Dashboard.png" class="card-img-top" alt="weather-dashboard" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/Weather-Dashboard.png"} class="card-img-top" alt="weather-dashboard" />
                                 <div class="card-body text-white bg-dark">
                                     <h5 class="card-title">Weather Dashboard</h5>
                                     <p class="card-text">A weather dashboard app using a third party API to return current weather information and a 5-day forecast for searched city.</p>
