@@ -4,6 +4,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Wrapper from '../components/Wrapper';
 import '../styles/Contact.css';
+// import emailjs from 'emailjs-com';
 
 function Contact() {
     return (
