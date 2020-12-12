@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/Navbar"
 import Wrapper from "./components/Wrapper";
@@ -36,13 +36,13 @@ class App extends Component {
                   timeout={300}
                   classNames="fade">
                   <Switch location={location}> */}
-                  <Switch>
+                  {/* <Switch> */}
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/resume" component={Resume} />
                     <Route exact path="/portfolio" component={Portfolio} />
-                  </Switch>
+                  {/* </Switch> */}
                   {/* </Switch>
                 </CSSTransition>
               </TransitionGroup>
