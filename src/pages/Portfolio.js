@@ -17,7 +17,7 @@ function Portfolio() {
                                 <h5 className="card-title">Mary Jane's Market</h5>
                                 <p className="card-text">This team project is an application we created from scratch; an E-Commerce website with React, complete with age verifcation, Facebook authentication and a Stripe payment platform.</p>
                                 <br /><br />
-                                <a href="https://ancient-ravine-72940.herokuapp.com/#/" rel="noreferrer" target="_blank" className="btn btn-secondary ctr">Visit the live page</a>
+                                <a href="https://maryjanesmarket.herokuapp.com/" rel="noreferrer" target="_blank" className="btn btn-secondary ctr">Visit the live page</a>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="https://github.com/BwayCarl/Mary-Janes-Market" rel="noreferrer" target="_blank" className="btn btn-secondary"><i className="fab fa-github btn-icon"></i> Github Repository</a>
                             </div>
