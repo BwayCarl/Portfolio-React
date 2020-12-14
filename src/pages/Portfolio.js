@@ -47,7 +47,7 @@ function Portfolio() {
                             <img src={process.env.PUBLIC_URL + "/assets/images/EMFLC.png"} className="card-img-top" alt="emflc-page" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">More Football Less COVID</h5>
-                                <p className="card-text">This team project leverages numerous technologies, throughout the full stack, to generate a user experience that together data from multiple sources to provide tailored safety measures per NFL team in an attempt to mitigate COVID risk and hopefully allow for people to safely attend NFL games all season.</p>
+                                <p className="card-text">This team project leverages numerous technologies, throughout the full stack, to generate a user experience that gather data from multiple sources to provide tailored safety measures per NFL team in an attempt to mitigate COVID risk and hopefully allow for people to safely attend NFL games all season.</p>
                                 <a href="https://fathomless-escarpment-94264.herokuapp.com/" rel="noreferrer" target="_blank" className="btn btn-secondary">Visit the live page</a>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="https://github.com/BwayCarl/EvenMoreFootballLessCOVID" rel="noreferrer" target="_blank" className="btn btn-secondary"><i className="fab fa-github btn-icon"></i> Github Repository</a>
