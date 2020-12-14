@@ -12,6 +12,20 @@ function Portfolio() {
                 <Row>
                     <Col size="md-6">
                         <div className="card bg-dark border-dark">
+                            <img src={process.env.PUBLIC_URL + "/assets/images/Mary-Janes-Market.png"} className="card-img-top" alt="food-drink-app" />
+                            <div className="card-body text-white bg-dark">
+                                <h5 className="card-title">Mary Jane's Market</h5>
+                                <p className="card-text">This team project is an application we created from scratch; an E-Commerce website with React, complete with age verifcation, Facebook authentication and a Stripe payment platform.</p>
+                                <br /><br />
+                                <a href="https://ancient-ravine-72940.herokuapp.com/#/" rel="noreferrer" target="_blank" className="btn btn-secondary ctr">Visit the live page</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="https://github.com/BwayCarl/Mary-Janes-Market" rel="noreferrer" target="_blank" className="btn btn-secondary"><i className="fab fa-github btn-icon"></i> Github Repository</a>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col size="md-6">
+                        <div className="card bg-dark border-dark">
                             <img src={process.env.PUBLIC_URL + "/assets/images/Food-Drink-App.jpg"} className="card-img-top" alt="food-drink-app" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">What Are We Making Tonight?</h5>
@@ -23,8 +37,12 @@ function Portfolio() {
                             </div>
                         </div>
                     </Col>
-
-                    <Col size="md-6">
+                </Row>
+            </Container>
+            <div><br/><br/></div>
+            <Container>
+                <Row>
+                <Col size="md-6">
                         <div className="card bg-dark border-dark">
                             <img src={process.env.PUBLIC_URL + "/assets/images/EMFLC.png"} className="card-img-top" alt="emflc-page" />
                             <div className="card-body text-white bg-dark">
@@ -36,24 +54,6 @@ function Portfolio() {
                             </div>
                         </div>
                     </Col>
-                </Row>
-            </Container>
-            <div><br/><br/></div>
-            <Container>
-                <Row>
-                    <Col size="md-6">
-                        <div className="card bg-dark border-dark">
-                            <img src={process.env.PUBLIC_URL + "/assets/images/Eat-Da-Burger.png"} className="card-img-top" alt="eat-da-burger-app" />
-                            <div className="card-body text-white bg-dark border-dark">
-                                <h5 className="card-title border-dark">Eat-Da-Burger</h5>
-                                <p className="card-text">A burger logger app using MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design.</p>
-                                <br/>
-                                    <a href="https://radiant-tor-88185.herokuapp.com/burgers" rel="noreferrer" target="_blank" className="btn btn-secondary">Visit the live page</a>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="https://github.com/BwayCarl/burger" rel="noreferrer" target="_blank" className="btn btn-secondary"><i className="fab fa-github btn-icon"></i> Github Repository</a>
-                                    </div>
-                            </div>
-                    </Col>
                             
                         <Col size="md-6">
                             <div className="card bg-dark border-dark">
@@ -61,6 +61,7 @@ function Portfolio() {
                                 <div className="card-body text-white bg-dark">
                                     <h5 className="card-title">Workday Scheduler</h5>
                                     <p className="card-text">A calendar application that allows the user to save events for each hour of the work day and stores the information in local storage. This app runs in the browser.</p>
+                                    <br /><br />
                                     <a href="https://bwaycarl.github.io/workday-scheduler/" rel="noreferrer" target="_blank" className="btn btn-secondary">Visit the live page</a>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="https://github.com/BwayCarl/workday-scheduler" rel="noreferrer" target="_blank" className="btn btn-secondary"><i className="fab fa-github btn-icon"></i> Github Repository</a>
