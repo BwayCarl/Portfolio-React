@@ -70,7 +70,7 @@ function Resume() {
                                 <ul className="circle">
                                     <br/>
                                     <li>Responsible for all areas of lighting and electrical power for the entire theater, as well as the power needs for the lighting design, sound design and automation elements of the scenic design of each production.</li>
-                                    <li>In charge of hiring the Electrics Department crew that loads in each attraction (numbers range from 12-30 crew members depending on the production) and the permanent crew that runs and maintains the show during its run.</li>
+                                    <li>In charge of hiring the Electrics Department crew that loads in each attraction (numbers range from 12-30 crew members depending on the production) and the permanent crew that runs and maintains the show during its life.</li>
                                     <li>Implement initiatives for upgrading the facility's electrical systems to ensure up to date technology and safely replace outdated systems.</li>
                                     <li>Submit monthly maintenance reports explaining work completed and recommendations for future projects.</li>
                                 </ul>
