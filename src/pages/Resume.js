@@ -94,7 +94,8 @@ function Resume() {
                                 <h4>Rutgers University <small className='citystate'>New Brunswick, NJ</small></h4>
                                 <strong>Web Coding Bootcamp - Full Stack Flex <span className='dates pull-right'>- June, 2020 - December, 2020</span></strong>
                                 <ul className="circle">
-                                    <li>Curriculum covering a vast array of computer programming such as HTML5, CSS3, JavaScript, Java, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB.</li>
+                                    <li>Certificate of Completion • Center for Continuing Professional Development </li>
+                                    <li>Curriculum covering a vast array of computer programming such as HTML5, CSS3, JavaScript, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB.</li>
                                 </ul>
                             </div>
                             <div className='position'>

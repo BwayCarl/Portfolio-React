@@ -17,7 +17,7 @@ function About () {
             
          
                 <Col size="md-8" className= "about">
-                    <h1>A little bit about me...</h1>
+                    <h1 className="about-title">A little bit about me...</h1>
                     <br />
                     <p>My name is Carlos Martinez and I'm a native New Yorker currently living in South Orange, New Jersey.</p> 
                     <p>After 25 successful years in the entertainment industry as a Broadway Local One stagehand specializing in electrics, the sudden cononavirus pandemic has steered me down a different path. While my career is on indefinite hold, I am taking the opportunity to expand my horizons and concentrate on learning the skills needed to jump start a second life in the world of web development.</p>

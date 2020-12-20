@@ -7,6 +7,10 @@ h1.contact {
     padding-top: 0;
 }
 
+.d-flex {
+    padding-left: 0;
+}
+
 .icon-links a:link {
     color: #e6dede; 
    
@@ -28,11 +32,14 @@ h1.contact {
 
 @media screen and (max-width:768px) {
     .fa-3x {
-        font-size: 225%;
+        font-size: 175%;
     }
  
+    .d-flex {
+        padding-left: 0;
+    }
      .icon {
-         padding: .6rem;
+         padding: .45rem;
      }
  
      form {

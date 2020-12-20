@@ -34,8 +34,9 @@
     opacity: .85;
   }
 
-  .btn {
+  a.btn {
       border-radius: 1rem;
+      margin: 1rem;
   }
 
   .btn-icon {
@@ -57,3 +58,16 @@ a:hover {
     opacity: .7;
 }
 
+.card-button {
+    text-align: center;
+}
+
+@media screen and (max-width: 993px) {
+
+    a.btn {
+        margin-bottom: 1rem; 
+    }
+    .card-title {
+        text-align: center;
+    }
+}

@@ -107,13 +107,13 @@ function Contact() {
                     <Col size="md-1"></Col>
                         <Col size="md-10" className="icon-links">
                             <ul className="d-flex auto-mx justify-content-center">
-                                <li className="list-inline-item icon"><a href="mailto:bwaycarl@gmail.com" rel="noreferrer" target="_blank"><i class="fas fa-envelope fa-3x"></i></a></li>
-                                <li className="list-inline-item icon"><a href="tel:9178488949" rel="noreferrer" target="_blank"><i class="fas fa-mobile fa-3x"></i></a></li>
-                                <li className="list-inline-item icon"><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
-                                <li className="list-inline-item icon"><a href="https://www.linkedin.com/in/carlos-martinez-8702b146/" rel="noreferrer" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="mailto:bwaycarl@gmail.com" rel="noreferrer" target="_blank"><i className="fas fa-envelope fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="tel:9178488949" rel="noreferrer" target="_blank"><i className="fas fa-mobile fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"><i className="fab fa-github fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="https://www.linkedin.com/in/carlos-martinez-8702b146/" rel="noreferrer" target="_blank"><i className="fab fa-linkedin fa-3x"></i></a></li>
                                 <li className="list-inline-item icon"><a href="https://www.facebook.com/carlos.martinez.1447/" rel="noreferrer" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
-                                <li className="list-inline-item icon"><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
-                                <li className="list-inline-item icon"><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"><i className="fab fa-twitter fa-3x"></i></a></li>
+                                <li className="list-inline-item icon"><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"><i className="fab fa-instagram fa-3x"></i></a></li>
                             </ul>
                         </Col>
                     <Col size="md-1"></Col>
