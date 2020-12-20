@@ -15,7 +15,7 @@ footer a:hover {
   padding-right: 2rem;
 }
 
-.fade-in-footer {
+/* .fade-in-footer {
   animation: fadeIn ease 3.2s;
   -webkit-animation: fadeIn ease 3.2s;
   -moz-animation: fadeIn ease 3.2s;
@@ -45,4 +45,4 @@ footer a:hover {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-}
+} */
