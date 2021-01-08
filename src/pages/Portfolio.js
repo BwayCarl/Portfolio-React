@@ -15,7 +15,7 @@ function Portfolio() {
                             <img src={process.env.PUBLIC_URL + "/assets/images/Mary-Janes-Market.png"} className="card-img-top" alt="food-drink-app" />
                             <div className="card-body text-white bg-dark">
                                 <h5 className="card-title">Mary Jane's Market</h5>
-                                <p className="card-text">This team project is an application we created from scratch; an E-Commerce website with React, complete with age verifcation, Facebook authentication and a Stripe payment platform.</p>
+                                <p className="card-text">This team project is an application we created from scratch; an E-Commerce website with React, complete with age verification, Facebook authentication and a Stripe payment platform.</p>
                                 <br /><br />
                                 <div className="card-button">
                                     <a href="https://maryjanesmarket.herokuapp.com/" rel="noreferrer" target="_blank" className="btn btn-secondary ctr"><i class="fas fa-globe"></i> Visit the live page</a>
