@@ -33,18 +33,16 @@ function Resume() {
 
                             {/* Skills with Language Icons */}
                             <h5>Skills</h5>
-                            <div><i className="fab html-logo resume-icon fa-html5"></i> HTML5</div>
-
-                            <div><i className="fab css-logo resume-icon fa-css3"></i> CSS3</div>
-
-                            <div><i className="fab js-logo resume-icon fa-js-square"></i> JavaScript</div>
-                            <div><i className="fab n-js-logo resume-icon fa-node"></i> Node.js</div>
-                            <div><img src={process.env.PUBLIC_URL + "/assets/images/logo-mysql-26341.png"} alt="mysql-logo" className="mysql-logo"/> MySQL</div>
-                            <div><img src={process.env.PUBLIC_URL + "/assets/images/mongodb-logo.png"} alt="mongoDB-logo" className="mongoDB-logo"/> mongoDB</div>
                             <div><i className="fab react-logo resume-icon fa-react"></i> React</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/mongodb-logo.png"} alt="mongoDB-logo" className="mongoDB-logo"/> mongoDB</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/logo-mysql-26341.png"} alt="mysql-logo" className="mysql-logo"/> MySQL</div>
+                            <div><i className="fab n-js-logo resume-icon fa-node"></i> Node.js</div>
+                            <div><i className="fab js-logo resume-icon fa-js-square"></i> JavaScript</div>
+                            <div><i className="fab html-logo resume-icon fa-html5"></i> HTML5</div>
+                            <div><i className="fab css-logo resume-icon fa-css3"></i> CSS3</div>
                             <br /><br /><br />
+                            
                             {/* PDF Button */}
-
                             <div><a href={process.env.PUBLIC_URL + "/assets/Carlos_Martinez_Resume.pdf"} rel="noreferrer" target="_blank" type="button" className="btn btn-primary"><i className="fas fa-file-pdf"></i> Download PDF Version</a></div>
                         </div>
                     </Col>
