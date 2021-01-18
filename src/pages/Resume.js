@@ -43,7 +43,7 @@ function Resume() {
                             <br /><br /><br />
                             
                             {/* PDF Button */}
-                            <div><a href={process.env.PUBLIC_URL + "/assets/Carlos_Martinez_Resume.pdf"} rel="noreferrer" target="_blank" type="button" className="btn btn-primary"><i className="fas fa-file-pdf"></i> Download PDF Version</a></div>
+                            <div><a href={process.env.PUBLIC_URL + "/assets/Carlos_Martinez_Resume.pdf"} rel="noreferrer" target="_blank" type="button"><button className="btn btn-outline-info resume-btn"><i className="fas fa-file-pdf"></i> Download PDF Version</button></a></div>
                         </div>
                     </Col>
 
