@@ -29,7 +29,7 @@ function Resume() {
                             <div><i className="fab resume-icon fa-github"></i><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"> BwayCarl</a></div>
 
                             <div><i className="fab resume-icon fa-instagram"></i><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"> BroadwayCarl</a></div>
-                            <br /><br /><br />
+                            <br /><br />
 
                             {/* Skills with Language Icons */}
                             <h5>Skills</h5>
@@ -40,6 +40,8 @@ function Resume() {
                             <div><i className="fab js-logo resume-icon fa-js-square"></i> JavaScript</div>
                             <div><i className="fab html-logo resume-icon fa-html5"></i> HTML5</div>
                             <div><i className="fab css-logo resume-icon fa-css3"></i> CSS3</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/git-logo.png"} alt="git-logo" className="git-logo"/> Git</div>
+                            <div><img src={process.env.PUBLIC_URL + "/assets/images/markdown-logo.png"} alt="markdown-logo" className="markdown-logo"/> Markdown</div>
                             <br /><br /><br />
                             
                             {/* PDF Button */}

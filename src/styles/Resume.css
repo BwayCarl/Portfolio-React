@@ -62,6 +62,12 @@ hr {
     max-width: 20px;
 }
 
+.git-logo {
+    max-height: 19px;
+}
+.markdown-logo {
+    max-width: 20px;
+}
 .profile-pic {
     max-height: 400px;
     padding-left: 2.8rem;
