@@ -42,7 +42,7 @@ function Resume() {
                             <div><i className="fab css-logo resume-icon fa-css3"></i> CSS3</div>
                             <div><img src={process.env.PUBLIC_URL + "/assets/images/git-logo.png"} alt="git-logo" className="git-logo"/> Git</div>
                             <div><img src={process.env.PUBLIC_URL + "/assets/images/markdown-logo.png"} alt="markdown-logo" className="markdown-logo"/> Markdown</div>
-                            <br /><br /><br />
+                            <br />
                             
                             {/* PDF Button */}
                             <div><a href={process.env.PUBLIC_URL + "/assets/Carlos_Martinez_Resume.pdf"} rel="noreferrer" target="_blank" type="button"><button className="btn btn-outline-info resume-btn"><i className="fas fa-file-pdf"></i> Download PDF Version</button></a></div>
