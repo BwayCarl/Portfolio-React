@@ -5,8 +5,19 @@ h1.contact {
 .icon {
     padding: 2rem;
     padding-top: 0;
+    transition: .3s;
 }
-
+.icon:hover {
+    color: #808080;
+    transition: .3s;
+}
+.fas, .fab {
+    transition: .3s;
+}
+.fas:hover, .fab:hover {
+    color: #94c8f1;
+    transition: .5s;
+}
 .d-flex {
     padding-left: 0;
 }
@@ -23,7 +34,6 @@ h1.contact {
 .icon-links a:hover {
     color: #d0e1f0ce;
     transition: 0.35s;
-    transform: scale(3);
 }
 
 #contact-form {

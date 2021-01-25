@@ -24,9 +24,11 @@ function Resume() {
 
                             <div><i className="fas resume-icon fa-mobile-alt"></i> 917-848-8949</div>
 
-                            <div><i className="fab resume-icon fa-twitter"></i><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"> @BwayDev</a></div>
-
                             <div><i className="fab resume-icon fa-github"></i><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"> BwayCarl</a></div>
+
+                            <div><i class="fab resume-icon fa-linkedin"></i><a href="https://www.linkedin.com/in/carlos-martinez-8702b146/" rel="noreferrer" target="_blank"> Carlos Martinez</a></div>
+
+                            <div><i className="fab resume-icon fa-twitter"></i><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"> @BwayDev</a></div>
 
                             <div><i className="fab resume-icon fa-instagram"></i><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"> BroadwayCarl</a></div>
                             <br /><br />
