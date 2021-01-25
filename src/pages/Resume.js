@@ -20,17 +20,17 @@ function Resume() {
                             <div><i className="fas resume-icon fa-map-marker-alt"></i> 111 Sherman Place</div>
                             <div>South Orange, NJ 07079</div>
                             <br />
-                            <div><i className="fas resume-icon fa-envelope-square"></i><a href="mailto:bwaycarl@gmail.com" rel="noreferrer" target="_blank"> bwaycarl@gmail.com</a></div>
+                            <div><a href="mailto:bwaycarl@gmail.com" rel="noreferrer" target="_blank"><i className="fas resume-icon fa-envelope-square"></i> bwaycarl@gmail.com</a></div>
 
-                            <div><i className="fas resume-icon fa-mobile-alt"></i> 917-848-8949</div>
+                            <div><a href="tel:9178488949" rel="noreferrer" target="_blank"><i className="fas resume-icon fa-mobile-alt"></i> 917-848-8949</a></div>
 
-                            <div><i className="fab resume-icon fa-github"></i><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"> BwayCarl</a></div>
+                            <div><a href="https://github.com/BwayCarl" rel="noreferrer" target="_blank"><i className="fab resume-icon fa-github"></i> BwayCarl</a></div>
 
-                            <div><i class="fab resume-icon fa-linkedin"></i><a href="https://www.linkedin.com/in/carlos-martinez-8702b146/" rel="noreferrer" target="_blank"> Carlos Martinez</a></div>
+                            <div><a href="https://www.linkedin.com/in/carlos-martinez-8702b146/" rel="noreferrer" target="_blank"><i class="fab resume-icon fa-linkedin"></i> Carlos Martinez</a></div>
 
-                            <div><i className="fab resume-icon fa-twitter"></i><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"> @BwayDev</a></div>
+                            <div><a href="https://twitter.com/BwayDev" rel="noreferrer" target="_blank"><i className="fab resume-icon fa-twitter"></i> @BwayDev</a></div>
 
-                            <div><i className="fab resume-icon fa-instagram"></i><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"> BroadwayCarl</a></div>
+                            <div><a href="https://www.instagram.com/broadwaycarl/" rel="noreferrer" target="_blank"><i className="fab resume-icon fa-instagram"></i> BroadwayCarl</a></div>
                             <br /><br />
 
                             {/* Skills with Language Icons */}
@@ -62,8 +62,21 @@ function Resume() {
                         </div>
                         
                             <hr/>
+
+                             {/* DEVELOPER EDUCATION */}
+                             <h3 className="subheaders">Developer Education & Experience</h3>
+                           
+                            <div className='position'>
+                                <h4>Rutgers University <small className='citystate'>New Brunswick, NJ</small></h4>
+                                <strong>Web Coding Bootcamp - Full Stack Flex <span className='dates pull-right'>- June, 2020 - December, 2020</span></strong>
+                                <ul className="circle">
+                                    <li>Certificate of Completion • Center for Continuing Professional Development </li>
+                                    <li>Curriculum covering a vast array of computer programming such as HTML5, CSS3, JavaScript, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB.</li>
+                                </ul>
+                            </div>
+                           <br/>
                             {/* EXPERIENCE */}
-                            <h3 className="subheaders">Experience</h3>
+                            <h3 className="subheaders">Professional Experience</h3>
                             
                             <div className='position'>
                                 <h4>The Shubert Organization <small className='citystate'>New York, NY</small></h4>
@@ -93,16 +106,8 @@ function Resume() {
                             <h3 className="subheaders">Education</h3>
                             
                             <div className='position'>
-                                <h4>Rutgers University <small className='citystate'>New Brunswick, NJ</small></h4>
-                                <strong>Web Coding Bootcamp - Full Stack Flex <span className='dates pull-right'>- June, 2020 - December, 2020</span></strong>
-                                <ul className="circle">
-                                    <li>Certificate of Completion • Center for Continuing Professional Development </li>
-                                    <li>Curriculum covering a vast array of computer programming such as HTML5, CSS3, JavaScript, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB.</li>
-                                </ul>
-                            </div>
-                            <div className='position'>
                                 <h4>CUNY Queens College, Aaron Copland School of Music <small className='citystate'>Flushing, NY</small></h4>
-                                <strong>Music Perfomance Major - Clarinet <span className='dates pull-right'>- September, 1984 - June, 1988</span></strong>
+                                <strong>Music  Major in Performance - Clarinet <span className='dates pull-right'>- September, 1984 - June, 1988</span></strong>
                                 
                             </div>
                     </Col>
